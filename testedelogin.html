@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SISLOC-Login</title>
+  <link href="Imagens/favicon.png" rel="shortcut icon" type="image/x-icon" />
+  <style>
+    
+    body{
+      background-color:#fdfdfd;
+    }
+    #login-box{
+      background-color:#ee752d;
+      width:380px;
+      height:300px;
+      margin:50px auto 0px;
+      border-radius:5px;
+          }
+    #login-box-interno{
+      width:360px;
+      height:280px;
+      background-color:#fdfdfd;
+      position: absolute;
+      margin: 10px;
+      border-radius:5px;
+      box-shadow: 0px 0px 5px black;
+      overflow:hidden;
+    }
+    #login-box-label{
+      
+      height:45px;
+      text-align:center;
+      
+      font: bold 16px/45px sans-serif;
+      
+      border-top-left-radius:5px;
+      border-top-right-radius:5px;
+      
+      border-bottom: 1px solid #bfc3c5;
+      
+    }
+
+    .input-div{
+      margin: 20px;
+      padding: 5px;
+      background-color: #f2f5f7;
+      border-radius:3px;
+    }
+
+    .input-div input{
+      width: 310px;
+      height: 35px;
+      padding-left:5px;
+      font: normal 13px sans-serif;
+      color:#aeaeae;
+      border-radius:3px;
+      border: 1px solid #bfc3c5;
+      outline: none;
+    }
+    #input-senha{
+      margin-top:-10px;
+    }
+    #botoes{
+      width: 310px;
+      margin-left:25px;
+
+    }
+    #botao{
+      float:right;
+      padding: 5px 15px;
+      font: bold 12px sans-serif;
+      border-radius: 20px;
+      text-shadow:0px 1px 0px white ;
+      border: 1px solid #9eb9c3;
+    }
+    #botao:hover{
+      cursor:pointer;
+    }
+
+
+  </style>
+  
+</head>
+<body>
+  <center>
+  <figure>
+    <img src="Imagens/logo.png" width="900"/>
+    </figure>
+    </center>
+  <div id="login-box">
+    <div id="login-box-interno">
+    <div id="login-box-label">Faça seu login no SISLOC</div>
+    
+    
+    <div class="input-div" id="input-usuario">RG:
+      <input type="text" value=""/>
+      </div>
+
+      <div class="input-div" id="input-senha">Senha:
+      <input type="text" value=""/>
+      </div>
+
+      <div id="botoes">
+        <div id="botao">Login</div>
+        <div id="lembrar-senha"><input type="checkbox"/> Lembrar minha senha</div>
+        </div>
+</div>
+</div> 
+</body>
+</html>
